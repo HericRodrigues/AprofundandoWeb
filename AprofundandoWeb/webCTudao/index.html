@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas Diárias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main>
+        <img class="imagemArrumar" src="/webCTudao/img/imagemDeTarefas.png" alt="Tarefas imagem">
+        <form>
+            <input id="input-item" type="text" placeholder="Digite sua primeira Tarefa">
+            <button id="botao-salvar">Salvar Tarefa</button>
+        </form>
+
+        <div class="container-lista">
+            <h2>Lista de Tarefas</h2>
+            <hr>
+            
+            <ul id="lista-de-tarefas">
+                <p id="mensagem-da-lista-vazia" style="display: block">Sua lista de tarefas está vazia. Adicione alguma tarefa!</p>
+            </ul>
+
+            <h2>Tarefa Feita</h2>
+            <hr/>
+            <ul id="lista-de-tarefa-feitas"></ul>
+
+            <div class="container">
+                <form class="caixa-de-sug">
+                    <h1>Caixa de Sugestões</h1>
+                    <input class="caixinha" type="text" placeholder="Escreva sua Sugestão">
+                    <button class="button-enviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script> 
+</body>
+
+</html>
